@@ -1,4 +1,6 @@
 # Operation Meridian: Threat Hunt Report
+<img width="1194" height="864" alt="mo" src="https://github.com/user-attachments/assets/674ae8da-48e1-4856-8dd2-fe7b2ac1077e" />
+
 
 **Single-host web application intrusion, healthcare estate**
 
@@ -9,7 +11,6 @@
 | **Telemetry** | Azure Log Analytics (LAW-HuntPractice), classic custom tables, KQL. All queries filter and order on EventTime_t, never TimeGenerated (ingestion time, 2026-08-30). |
 | **Incident window** | 2026-02-06, 02:42:56 to 05:30 UTC (attacker activity 03:47 to 05:05). All times UTC. |
 | **Scope** | Full kill chain reconstructed: reconnaissance through incident response (9 stages) |
-| **Status** | NOT CONTAINED. Root implant health_check (PID 267155) was still running at 05:30. |
 
 A PDF copy of this report is included: [Meridian_Threat_Hunt_Report.pdf]
 
